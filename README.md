@@ -1,20 +1,7 @@
-# satellite-thermal-geo-localization
+# Night-Vision-Navigation-Model
 
-This is the official repository for [Long-range UAV Thermal Geo-localization with Satellite Imagery](https://arxiv.org/abs/2306.02994).
 
-```
-@misc{xiao2023longrange,
-      title={Long-range UAV Thermal Geo-localization with Satellite Imagery}, 
-      author={Jiuhong Xiao and Daniel Tortei and Eloy Roura and Giuseppe Loianno},
-      year={2023},
-      eprint={2306.02994},
-      archivePrefix={arXiv},
-      primaryClass={cs.RO}
-}
-```
-**Developer: Jiuhong Xiao<br />
-Affiliation: [NYU ARPL](https://wp.nyu.edu/arpl/)<br />
-Maintainer: Jiuhong Xiao (jx1190@nyu.edu)<br />**
+
 
 ## Dataset
 Dataset link: [Download](https://long-range-uav-thermal.s3.me-central-1.amazonaws.com/thermal_h5_datasets.zip)
@@ -109,7 +96,7 @@ Note that running evaluation scripts requires two arguments: **SGM_model_folder_
 Find the test results in in ``./test/default/model_folder_name/satellite_0_thermalmapping135-datetime``. There will be two folders. This first reports **R@1** and **R@5**. The second reports **R_512@1**, **R_512@5** and **L^512_2**.
 
 ## Acknowledgement
-Our implementation refers to the following repositories and appreciate their excellent work.
+Implementation refers to the following repositories and appreciate their excellent work.
 
 https://github.com/gmberton/deep-visual-geo-localization-benchmark  
 https://github.com/fungtion/DANN  
